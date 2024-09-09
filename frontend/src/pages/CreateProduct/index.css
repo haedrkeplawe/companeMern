@@ -1,0 +1,33 @@
+div.create-product {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form.create-product {
+    width: 82%;
+    margin-top: 20px;
+}
+form.create-product h1 {
+    text-align: center;
+}
+form.create-product input {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px 7px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+form.create-product button {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background-color: #555;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 0;
+}
